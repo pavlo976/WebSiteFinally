@@ -11,7 +11,15 @@ const navCollapse = document.querySelector('.navbar-collapse')
 const button = document.querySelector('.navbar-toggler')
 const section = document.querySelector('.contact')
 
-let fontSize = 20
+
+// let a = parseInt(prompt(`Podaj liczbę`))
+//     if(a % 2 == 0) {
+//         document.write(`Liczba jest parzysta`)
+//     }   else {
+//         document.write(`Liczba jest nieparzysta`)
+//     }
+
+
 
 // function increaseText () {
 //     fontSize += 5
@@ -22,11 +30,11 @@ let fontSize = 20
 //     p.style.fontSize = fontSize + 'px'
 // }
 
-const array = ['banan', 'jabłko', 'kiwi', 'maliny', 'gruszki']
+// const array = ['banan', 'jabłko', 'kiwi', 'maliny', 'gruszki']
 
-for (let i = 0; i < array.length; i++) {
-    console.log(array[i]);
-}
+// for (let i = 0; i < array.length; i++) {
+//     console.log(array[i]);
+// }
 
 function addColorNavbar () {
     if (window.scrollY >= 180) {
@@ -49,5 +57,11 @@ navLink.forEach(item => item.addEventListener('click', () => navCollapse.classLi
 
 window.addEventListener('scroll', addColorNavbar)
 window.addEventListener('scroll', goDownArrow)
+// if(fontSize % 2 == 0) {
+//     document.write()
+// }   else {
+//     console.log(`Liczba nieparzysta`);
+// }
+
 })
 
